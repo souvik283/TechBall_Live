@@ -1,0 +1,80 @@
+            body{
+                background-color: rgb(97, 97, 97);
+            }
+            .navbar{
+                background-color: rgb(47, 47, 47);
+                gap: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                position:fixed;
+                width: 100%;
+                top: 0;
+                z-index: 1000;
+            }
+            .footer{
+                background-color: rgb(26, 26, 26);
+                color: bisque;
+                text-align: center;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+          
+            .navbar a{
+                text-decoration: none;
+                color: bisque;
+              margin-left: 15px;
+            }
+            .navbar a:hover{
+                color:darkgoldenrod;
+                font-size: 23px;
+            }
+            .navbar input{
+                margin-left: 15px;
+                background-color:antiquewhite;
+                color: rgb(22, 22, 22);
+                border-radius: 6px;
+            }
+            #search-btn{
+                background-color: antiquewhite;
+                margin-right: 15px;
+                border-radius: 5px;
+            }
+            #search-btn:hover{
+              background-color: rgb(214, 191, 131);
+            }
+            .top{
+                justify-content: center;
+                text-align: center;
+                background-color: rgb(74, 73, 73);
+                display: flex;
+                margin-bottom: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                box-shadow: 0 8px 16px rgba(178, 216, 238, 0.5);
+                color: rgb(120, 220, 231);
+                padding-top: 14px;
+                font-size: 18px;
+                margin-top: 50px;
+            }
+            #card-container{
+                display:flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: center;
+                margin: 5px;
+            }
+            .link{
+                text-decoration: none;
+                font-family: Arial, sans-serif;
+                color: rgb(60, 210, 224);
+               
+            }
+            .card{
+                background-color: rgb(21, 15, 15);
+                box-shadow: 0 8px 16px rgba(24, 24, 24, 0.9);
+            }
+            .card:hover{
+                background-color: rgba(26, 25, 25, 0.9);
+                box-shadow: 0 7px 14px rgba(177, 242, 240, 0.7);
+            }
+            .text{
+                color: azure;
+            }
